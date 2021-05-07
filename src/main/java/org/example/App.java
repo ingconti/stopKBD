@@ -24,7 +24,6 @@ public class App
         Thread myThread = new keyBoardThread();
         myThread.start();
 
-
         try {
             Thread.sleep(4000);
             myThread.interrupt();
